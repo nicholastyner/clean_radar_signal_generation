@@ -1,0 +1,12 @@
+signal_type: lfm
+sample_rate_hz: 3125000
+num_samples: 512
+pulse_width_seconds: 1.312e-05
+pulse_width_samples: 41
+pri_seconds: 2.08e-05
+pri_samples: 65
+pulse_time_delay_seconds: 1.28e-06
+pulse_time_delay_samples: 4
+actual_num_pulses: 8
+lfm_bandwidth_hz: 584466.2806748338
+lfm_chirp_rate_hz_per_second: 44547734807.533066
