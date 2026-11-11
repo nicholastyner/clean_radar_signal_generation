@@ -5,8 +5,8 @@ pulse_width_seconds: 1.056e-05
 pulse_width_samples: 33
 pri_seconds: 2.24e-05
 pri_samples: 70
-pulse_time_delay_seconds: 6.4e-06
-pulse_time_delay_samples: 20
-actual_num_pulses: 8
-polyphase_barker_code_length: 7
+pulse_time_delay_seconds: 9.92e-06
+pulse_time_delay_samples: 31
+actual_num_pulses: 7
+polyphase_barker_code_length: 11
 phase_alphabet: 4

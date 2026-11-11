@@ -1,12 +1,12 @@
 signal_type: frank
 sample_rate_hz: 3125000
 num_samples: 512
-pulse_width_seconds: 1.344e-05
-pulse_width_samples: 42
+pulse_width_seconds: 1.12e-05
+pulse_width_samples: 35
 pri_seconds: 2.144e-05
 pri_samples: 67
 pulse_time_delay_seconds: 5.44e-06
 pulse_time_delay_samples: 17
 actual_num_pulses: 8
-frank_order: 2
-frank_code_length: 4
+frank_order: 3
+frank_code_length: 9

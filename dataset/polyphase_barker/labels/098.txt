@@ -3,10 +3,10 @@ sample_rate_hz: 3125000
 num_samples: 512
 pulse_width_seconds: 1.312e-05
 pulse_width_samples: 41
-pri_seconds: 2.08e-05
-pri_samples: 65
-pulse_time_delay_seconds: 7.68e-06
-pulse_time_delay_samples: 24
+pri_seconds: 2.176e-05
+pri_samples: 68
+pulse_time_delay_seconds: 8e-06
+pulse_time_delay_samples: 25
 actual_num_pulses: 8
-polyphase_barker_code_length: 4
+polyphase_barker_code_length: 3
 phase_alphabet: 4

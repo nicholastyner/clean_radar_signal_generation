@@ -1,3 +1,4 @@
+
 import numpy as np
 from waveform_utils import place_pulses
 
@@ -17,23 +18,16 @@ def generate_waveform(
         raise ValueError("Sample rate must be positive.")
 
     if bandwidth <= 0 or bandwidth >= sample_rate:
-        raise ValueError(
-            "Bandwidth must be positive and less than the sample rate."
-        )
+        raise ValueError("Bandwidth must be positive and less than sample rate.")
 
     pulse_duration = pulse_width_samples / sample_rate
-
     t = np.arange(pulse_width_samples) / sample_rate
-
-    # Linear frequency sweep from -bandwidth/2 to +bandwidth/2.
-    start_frequency = -bandwidth / 2
 
     chirp_rate = bandwidth / pulse_duration
 
-    phase = (
-        2 * np.pi * start_frequency * t
-        + np.pi * chirp_rate * t**2
-    )
+    # Shift the chirp from a sweep centered at 0 Hz
+    # to a sweep from 0 Hz to bandwidth.
+    phase = np.pi * chirp_rate * t**2
 
     pulse = np.exp(1j * phase).astype(np.complex64)
 

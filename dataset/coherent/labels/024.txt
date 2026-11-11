@@ -1,10 +1,10 @@
 signal_type: coherent
 sample_rate_hz: 3125000
 num_samples: 512
-pulse_width_seconds: 1.216e-05
-pulse_width_samples: 38
-pri_seconds: 2.304e-05
-pri_samples: 72
-pulse_time_delay_seconds: 2.24e-06
-pulse_time_delay_samples: 7
-actual_num_pulses: 8
+pulse_width_seconds: 1.472e-05
+pulse_width_samples: 46
+pri_seconds: 1.92e-05
+pri_samples: 60
+pulse_time_delay_seconds: 4.16e-06
+pulse_time_delay_samples: 13
+actual_num_pulses: 9
