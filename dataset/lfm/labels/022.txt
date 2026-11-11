@@ -5,8 +5,8 @@ pulse_width_seconds: 1.12e-05
 pulse_width_samples: 35
 pri_seconds: 2.176e-05
 pri_samples: 68
-pulse_time_delay_seconds: 9.28e-06
-pulse_time_delay_samples: 29
+pulse_time_delay_seconds: 3.52e-06
+pulse_time_delay_samples: 11
 actual_num_pulses: 8
-lfm_bandwidth_hz: 354459.6966520151
-lfm_chirp_rate_hz_per_second: 31648187201.072777
+lfm_bandwidth_hz: 423360.02530254563
+lfm_chirp_rate_hz_per_second: 37800002259.15586
